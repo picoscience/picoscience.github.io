@@ -68,6 +68,12 @@ import { projects } from "@cv";
     border: solid 1px #999;
     border-radius: 10px;
   }
+
+  @media (max-width: 620px) {
+    .grid-template {
+      grid-template-columns: repeat(1, 100%);
+    }
+  }
   footer {
     display: flex;
     flex-wrap: wrap;

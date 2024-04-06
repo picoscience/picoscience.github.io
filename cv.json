@@ -34,7 +34,7 @@
       "url": "https://twitch.tv/midudev",
       "startDate": "2023",
       "endDate": null,
-      "summary": "Programador de las verisones V.1 y V.2 de UrU, colaborador de la versión oficial V3.0 (online actualmente). Recomendador de productos tecnologicos usando red neuronales con entrenamiento supersivsado, usando datos recolectados mediante web scraping",
+      "summary": "Programador de las versiones V.1 y V.2 de UrU, colaborador de la versión oficial V3.0 (online actualmente). Recomendador de productos tecnologicos usando red neuronales con entrenamiento supersivsado, usando datos recolectados mediante web scraping",
       "highlights": [
         "Started the company"
       ]
@@ -269,7 +269,7 @@
       "url": "https://github.com/picoscience/migrado-libre"
     },
     {
-      "name": "Minimalistic CV", 
+      "name": "Portfolio CV", 
       "description": "Minimalistic CV using Astro, dynamic cv just changing the cv.json (print format)",
       "highlights": [
         "UI static",
