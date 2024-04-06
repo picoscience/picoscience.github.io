@@ -1,6 +1,6 @@
 ---
 import Section from "@/layouts/Section.astro";
-import { basics } from "static/cv.json";
+import { basics } from "@cv";
 import LinkedIn from "@/icons/LinkedIn.astro";
 import GitHub from "@/icons/GitHub.astro";
 import X from "@/icons/X.astro";
@@ -8,7 +8,7 @@ import Phone from "@/icons/Phone.astro";
 import Mail from "@/icons/Mail.astro";
 import WorldMap from "@/icons/WorldMap.astro";
 
-const { name, label, email, phone, location, profiles } = basics;
+const { name, label, email, phone, location, image, profiles } = basics;
 const { city, region } = location;
 const SOCIAL_ICONS: Record<string, any> = {
   LinkedIn,
@@ -69,7 +69,7 @@ const SOCIAL_ICONS: Record<string, any> = {
       </footer>
     </div>
     <figure>
-      <img src="static/hero.png" alt={name} />
+      <img src={image} alt={name} />
     </figure>
   </div>
 </Section>
