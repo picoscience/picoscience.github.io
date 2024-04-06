@@ -1,8 +1,5 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig } from 'astro/config'
 
 export default defineConfig({
-  site: 'https://picoscience.github.io',
-  base: '/',
-  outDir: 'public',
-  publicDir: 'static',
-});
+  site: 'https://picoscience.github.io', 
+})
