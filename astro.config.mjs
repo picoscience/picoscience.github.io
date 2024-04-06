@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config'
 
 export default defineConfig({
-  site: 'https://picoscience.github.io',
-  base: '/',
+  site: 'https://picoscience.github.io', 
+  outDir: 'public',
+  publicDir: 'static',
 })
