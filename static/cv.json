@@ -1,0 +1,293 @@
+{
+  "basics": {
+    "name": "Juan Camilo Acosta Pico",
+    "label": "Full Stack Developer con más de 2 años de experiencia con Nextjs y Django",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZQEZkrMTb74HontU4fZWB0uyBimfO2IowFzdKFmlDSw&s",
+    "email": "picoscience.09@gmail.com",
+    "phone": "+57 3142087757",
+    "url": "https://midu.dev",
+    "summary": "+15 años de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
+    "location": {
+      "address": "",
+      "postalCode": "08820",
+      "city": "Bogotá",
+      "countryCode": "ES",
+      "region": "Colombia"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "midudev",
+        "url": "https://linkedin.com/in/midudev"
+      }, 
+      {
+        "network": "GitHub",
+        "username": "midudev",
+        "url": "https://github.com/midudev"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "midudev",
+      "position": "Divulgador sobre Programación Web",
+      "url": "https://twitch.tv/midudev",
+      "startDate": "2021-01-01",
+      "endDate": null,
+      "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Adevinta",
+      "position": "Lead Frontend Architect",
+      "url": "https://twitch.tv/midudev",
+      "startDate": "2016-06-01",
+      "endDate": "2022-09-01",
+      "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Hubii",
+      "position": "Senior FrontEnd Developer",
+      "startDate": "2011-03-01",
+      "endDate": "2016-05-01",
+      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
+      "highlights": [
+        "Started the company"
+      ]
+    }
+  ],
+  "volunteer": [{
+    "organization": "Organization",
+    "position": "Volunteer",
+    "url": "https://organization.com/",
+    "startDate": "2012-01-01",
+    "endDate": "2013-01-01",
+    "summary": "Description…",
+    "highlights": [
+      "Awarded 'Volunteer of the Month'"
+    ]
+  }],
+  "education": [{
+    "institution": "Universitat Oberta de Catalunya",
+    "url": "https://www.uoc.edu/portal/es/index.html",
+    "area": "Ingeniero de Software",
+    "studyType": "Bachelor",
+    "startDate": "2003-01-01",
+    "endDate": "2009-01-01",
+    "score": "4.0",
+    "courses": ["Curso profesional de redes neuronales con Tensorflow","Curso profesional de ML con scikit-learn","Curso redes neuronales convolucionales","Curso profesional Computer Vision con python"]
+  }],
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "certificates": [{
+    "name": "Certificate",
+    "date": "2021-11-07",
+    "issuer": "Company",
+    "url": "https://certificate.com"
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "url": "https://publication.com",
+    "summary": "Description…"
+  }],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend", "Servidor"
+      ]
+    },
+    {
+      "name": "Django",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend", "Servidor"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+      ]
+    },
+    {
+      "name": "Tensorflow",
+      "level": "Avanzado",
+      "keywords": [
+        "Script", "Machine learning", "Python" 
+      ]
+    },
+    {
+      "name": "Scikit-learn",
+      "level": "Avanzado",
+      "keywords": [
+        "Machine learning", "Python" 
+      ]
+    },
+    {
+      "name": "Astro",
+      "level": "Avanzado",
+      "keywords": [
+        "Frontend", "UI" ,"Programación web" 
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference…"
+  }],
+  "projects": [
+    {
+      "name": "UrU", 
+      "description": "Technological product recommender, based on neural networks, supervised learning",
+      "highlights": [
+        "Django",
+        "Tensorflow",
+        "NextJS",
+        "Typescript",
+        "Tailwind",
+        "React"
+      ], 
+      "url": "https://uru.com.co"
+    },
+    {
+      "name": "JWT auth", 
+      "description": "API/ JWT auth using djoser, simply JWT as backend, and Nextjs/React useContext API to local state.",
+      "highlights": [
+        "Django",
+        "NextJS",
+        "Typescript",
+        "Tailwind",
+        "React",
+        "JWT"
+      ], 
+      "url": "https://github.com/picoscience/next-jwt-auth"
+    },
+    {
+      "name": "Dynamic user filtering.", 
+      "description": "Fetching data, user filter, using state, manage state via props. Senior interview problem",
+      "highlights": [
+        "NextJS",
+        "React",
+        "Typescript",
+        "Tailwind"
+      ], 
+      "url": "https://github.com/picoscience/users-filter-nextjs"
+    },
+    {
+      "name": "Migrado Libre", 
+      "description": "Products page using Mercadolibre API. Filtering by subcategories. Senior interview problem",
+      "highlights": [
+        "NextJS",
+        "React",
+        "Typescript",
+        "Tailwind"
+      ], 
+      "url": "https://github.com/picoscience/migrado-libre"
+    },
+    {
+      "name": "Minimalistic CV", 
+      "description": "Minimalistic CV using Astro, dynamic cv just changing the cv.json (print format)",
+      "highlights": [
+        "UI static",
+        "Astro",
+        "Typescript",
+        "CSS"
+      ], 
+      "url": "https://github.com/picoscience/minimalistic-cv"
+    }
+  ]
+}

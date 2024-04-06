@@ -1,0 +1,41 @@
+---
+import Section from "@/layouts/Section.astro";
+import { skills } from "static/cv.json";
+---
+
+<Section title="Skills">
+  {
+    skills[0] && (
+      <div class="container">
+        {skills.map(({ name }) => (
+          <span>
+            <p>{name}</p>
+          </span>
+        ))}
+      </div>
+    )
+  }
+</Section>
+
+<style>
+  .container {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  p {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+  }
+  span {
+    cursor: default;
+    background-color: #444659;
+    padding-inline: 1rem;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+  }
+  span:hover {
+    background-color: #696b7c;
+  }
+</style>

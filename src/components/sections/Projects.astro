@@ -1,0 +1,88 @@
+---
+import Section from "@/layouts/Section.astro";
+import { projects } from "static/cv.json";
+---
+
+<Section title="Projects">
+  <div class="grid-template">
+    {
+      projects.map(({ name, description, highlights, url }) => (
+        <>
+          <div class="container">
+            <header>
+              <a href={url} target="_blank">
+                {name}
+              </a>
+              <p>{description}</p>
+            </header>
+            <footer>
+              {highlights.map((highlight) => (
+                <span>{highlight}</span>
+              ))}
+            </footer>
+          </div>
+        </>
+      ))
+    }
+  </div>
+</Section>
+
+<style>
+  a {
+    color: #666;
+    text-decoration: none;
+    margin: 0;
+    cursor: pointer;
+    line-height: 1.7rem;
+    font-size: 1.5rem;
+    border-bottom: solid 2px transparent;
+    margin-bottom: 8px;
+    transition: all 0.2s ease-in-out;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+      "Liberation Mono", "Courier New", monospace;
+  }
+  a:hover {
+    border-bottom: solid 2px #666;
+  }
+  p {
+    margin: 0;
+    color: #666;
+    margin-bottom: 8px;
+    margin-top: 8px;
+  }
+  .grid-template {
+    gap: 3%;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: start;
+  }
+  .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8px;
+    margin-bottom: 1rem;
+    border: solid 1px #999;
+    border-radius: 10px;
+  }
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  footer,
+  header {
+    width: 100%;
+  }
+  span {
+    padding: 3px;
+    font-weight: 500;
+    font-size: 0.8rem;
+    background-color: #eee;
+    color: #333;
+    border-radius: 4px;
+  }
+</style>

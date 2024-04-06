@@ -1,0 +1,52 @@
+---
+import Section from "@/layouts/Section.astro";
+import { work } from "static/cv.json";
+---
+
+<Section title="Experience">
+  {
+    work.map(({ name, position, startDate, summary }) => (
+      <div class="container">
+        <header>
+          <h2>{name}</h2>
+          <span>{startDate}</span>
+        </header>
+        <h3>{position}</h3>
+        <p>{summary}</p>
+      </div>
+    ))
+  }
+</Section>
+
+<style>
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    margin-bottom: 0px;
+  }
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+  }
+  h3,
+  p {
+    margin: 0;
+  }
+  p {
+    margin-top: 0.5rem;
+  }
+  h3 {
+    font-weight: 300;
+  }
+  span {
+    font-size: 1rem;
+    color: #999;
+  }
+</style>

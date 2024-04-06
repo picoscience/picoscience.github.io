@@ -1,0 +1,68 @@
+---
+import Section from "@/layouts/Section.astro";
+import { education } from "static/cv.json";
+---
+
+<Section title="Education">
+  {
+    education.map(({ institution, area, startDate, endDate, courses }) => (
+      <>
+        <div class="container">
+          <header>
+            <h2>{institution}</h2>
+            <span>{`${startDate} - ${endDate}`}</span>
+          </header>
+          <p>{area}</p>
+        </div>
+        {courses[0] && (
+          <>
+            <h3>Cursos</h3>
+            <ul>
+              {courses.map((course) => (
+                <li>{course}</li>
+              ))}
+            </ul>
+          </>
+        )}
+      </>
+    ))
+  }
+</Section>
+
+<style>
+  h3 {
+    font-weight: 300;
+    margin-top: 1rem;
+  }
+  ul {
+    padding-left: 1rem;
+  }
+  li {
+    font-size: 1rem;
+    color: #999;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    margin-bottom: 0px;
+  }
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+  }
+  p {
+    margin: 0;
+    margin-top: 0.5rem;
+  }
+  span {
+    font-size: 1rem;
+    color: #999;
+  }
+</style>
