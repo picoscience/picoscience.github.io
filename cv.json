@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Juan Camilo Acosta Pico",
-    "label": "Full Stack Developer con más de 2 años de experiencia con Nextjs y Django",
+    "label": "Full Stack Developer con más de dos años de experiencia.",
     "image": "https://i.postimg.cc/6qvkwz85/hero.png",
     "email": "picoscience.09@gmail.com",
     "phone": "+57 3142087757",
-    "url": "https://midu.dev",
-    "summary": "+15 años de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
+    "url": "",
+    "summary": "Más de dos años de experiencia en programación web, con el uso de tecnologías como HTML, CSS, Astro, Javascript, NextJS/React, Typescript (UI/UX), Python (Machine Learning) y Django (API REST). Con conocimientos avanzados en Ingeniería electrónica. Manejo de bases de datos SQL y NoSQL. Infraestructura AWS (despliegue de aplicaciones)",
     "location": {
       "address": "",
       "postalCode": "08820",
@@ -17,49 +17,39 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "midudev",
-        "url": "https://linkedin.com/in/midudev"
+        "username": "picocanas",
+        "url": "https://co.linkedin.com/in/juan-camilo-acosta-pico-526644247"
       }, 
       {
         "network": "GitHub",
         "username": "midudev",
-        "url": "https://github.com/midudev"
+        "url": "https://github.com/picoscience"
       }
     ]
   },
   "work": [
     {
-      "name": "midudev",
-      "position": "Divulgador sobre Programación Web",
+      "name": "UrU",
+      "position": "Programador web Full Stack.",
       "url": "https://twitch.tv/midudev",
-      "startDate": "2021-01-01",
+      "startDate": "2023",
       "endDate": null,
-      "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
+      "summary": "Programador de las verisones V.1 y V.2 de UrU, colaborador de la versión oficial V3.0 (online actualmente). Recomendador de productos tecnologicos usando red neuronales con entrenamiento supersivsado, usando datos recolectados mediante web scraping",
       "highlights": [
         "Started the company"
       ]
     },
     {
-      "name": "Adevinta",
-      "position": "Lead Frontend Architect",
+      "name": "Universidad Distrital FJC",
+      "position": "Estudiante",
       "url": "https://twitch.tv/midudev",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
+      "startDate": "2022",
+      "endDate": "2022",
+      "summary": "Creación e implementación de un sistema de computer visión que detecta en tiempo real el código de la placa de los vehiculos que vea en pantalla. Usando Python (tensorflow). Entrenamiento supervisado. Etiquetado manual y automatizado con validación humana. Entrenamiento supervisado.",
       "highlights": [
         "Started the company"
       ]
-    },
-    {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
-      "highlights": [
-        "Started the company"
-      ]
-    }
+    } 
   ],
   "volunteer": [{
     "organization": "Organization",
@@ -73,12 +63,12 @@
     ]
   }],
   "education": [{
-    "institution": "Universitat Oberta de Catalunya",
-    "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Ingeniero de Software",
+    "institution": "Universidad Distrital Francisco Jose de Caldas",
+    "url": "https://www.udistrital.edu.co/inicio",
+    "area": "Ingeniero electrónico",
     "studyType": "Bachelor",
-    "startDate": "2003-01-01",
-    "endDate": "2009-01-01",
+    "startDate": "2016",
+    "endDate": "2024",
     "score": "4.0",
     "courses": ["Curso profesional de redes neuronales con Tensorflow","Curso profesional de ML con scikit-learn","Curso redes neuronales convolucionales","Curso profesional Computer Vision con python"]
   }],
