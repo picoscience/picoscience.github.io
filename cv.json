@@ -29,6 +29,17 @@
   },
   "work": [
     {
+      "name": "Grupo RQ",
+      "position": "Programador web Full Stack.",
+      "url": "https://twitch.tv/midudev",
+      "startDate": "2024",
+      "endDate": null,
+      "summary": "Programador de TaxSaver app, aplicación para optimizar los impuestos de renta.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
       "name": "UrU",
       "position": "Programador web Full Stack.",
       "url": "https://twitch.tv/midudev",
@@ -220,6 +231,18 @@
     "reference": "Reference…"
   }],
   "projects": [
+    {
+      "name": "TaxSaver app", 
+      "description": "TaxSaver application, in process",
+      "highlights": [
+        "Django", 
+        "NextJS",
+        "Typescript",
+        "Tailwind",
+        "React"
+      ], 
+      "url": "https://app.taxsaver.com.co"
+    },
     {
       "name": "UrU", 
       "description": "Technological product recommender, based on neural networks, supervised learning",
