@@ -232,8 +232,20 @@
   }],
   "projects": [
     {
+      "name": "IDW systems", 
+      "description": "IDW system aplication",
+      "highlights": [
+        "Django", 
+        "NextJS",
+        "Typescript",
+        "Tailwind",
+        "React"
+      ], 
+      "url": "https://idwsystems.com"
+    },
+    {
       "name": "TaxSaver app", 
-      "description": "TaxSaver application, in process",
+      "description": "TaxSaver application",
       "highlights": [
         "Django", 
         "NextJS",
