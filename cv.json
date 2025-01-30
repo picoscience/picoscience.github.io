@@ -76,10 +76,10 @@
   "education": [{
     "institution": "Universidad Distrital Francisco Jose de Caldas",
     "url": "https://www.udistrital.edu.co/inicio",
-    "area": "Ingeniero electrónico",
+    "area": "Estudiante ingeniería electrónica (100% de la carrera).",
     "studyType": "Bachelor",
     "startDate": "2016",
-    "endDate": "2024",
+    "endDate": "2025",
     "score": "4.0",
     "courses": ["Curso profesional de redes neuronales con Tensorflow","Curso profesional de ML con scikit-learn","Curso redes neuronales convolucionales","Curso profesional Computer Vision con python"]
   }],
