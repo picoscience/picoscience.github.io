@@ -34,7 +34,7 @@
       "url": "https://twitch.tv/midudev",
       "startDate": "2024",
       "endDate": null,
-      "summary": "Desempeño en múltiples proyectos dentro de la misma empresa, abarcando roles de desarrollo tanto full stack como frontend. En el proyecto TaxSaver, llevé a cabo el desarrollo integral de una aplicación destinada a optimizar el impuesto de renta y simular el proceso con el Estado, basado en el formulario 210 de la DIAN, asegurando la implementación de funcionalidades backend y frontend con un enfoque en eficiencia y precisión. En IDW Systems, colaboré en el desarrollo del frontend de una aplicación para el rastreo y análisis de datos de ventas para una empresa de puertas y ventanas, donde me encargué de la implementación de componentes dinámicos y la optimización de la experiencia de usuario. Actualmente, participo en el desarrollo frontend de VitalGo, una aplicación para el triaje de pacientes que integra un motor de inteligencia artificial para facilitar el proceso de evaluación por parte del personal paramédico, garantizando una interfaz intuitiva y funcional.",
+      "summary": "Desarrollador full stack y frontend en diversos proyectos. En TaxSaver, desarrollé una aplicación para optimizar impuestos basada en el formulario 210 de la DIAN, abarcando backend y frontend. En IDW Systems, trabajé en el frontend de una herramienta de análisis de datos de ventas para una empresa de puertas y ventanas. Actualmente, colaboro en el desarrollo frontend de VitalGo, una aplicación de triaje de pacientes con IA, enfocándome en una interfaz intuitiva.",
       "highlights": [
         "Started the company"
       ]
@@ -231,6 +231,18 @@
     "reference": "Reference…"
   }],
   "projects": [
+    {
+      "name": "VitalGO", 
+      "description": "A business application focused on sales tracking and data analysis for a windows and doors manufacturing company.",
+      "highlights": [
+        "Frontend", 
+        "NextJS",
+        "Typescript",
+        "Tailwind",
+        "React"
+      ], 
+      "url": "https://myvitalgo.com"
+    },
     {
       "name": "IDW systems", 
       "description": "A business application focused on sales tracking and data analysis for a windows and doors manufacturing company.",
