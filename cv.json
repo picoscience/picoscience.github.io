@@ -30,22 +30,22 @@
   "work": [
     {
       "name": "Grupo RQ",
-      "position": "Programador web Full Stack.",
-      "url": "https://twitch.tv/midudev",
+      "position": "Desarrollador frontend.",
+      "url": "",
       "startDate": "2024",
       "endDate": null,
-      "summary": "Desarrollador full stack y frontend en diversos proyectos. En TaxSaver, desarrollé una aplicación para optimizar impuestos basada en el formulario 210 de la DIAN, abarcando backend y frontend. En IDW Systems, trabajé en el frontend de una herramienta de análisis de datos de ventas para una empresa de puertas y ventanas. Actualmente, colaboro en el desarrollo frontend de VitalGo, una aplicación de triaje de pacientes con IA, enfocándome en una interfaz intuitiva.",
+      "summary": "Desarrollador full stack y frontend en diversos proyectos.",
       "highlights": [
         "Started the company"
       ]
     },
     {
       "name": "UrU",
-      "position": "Programador web Full Stack.",
-      "url": "https://twitch.tv/midudev",
+      "position": "Desarrollador web Full Stack.",
+      "url": "",
       "startDate": "2023",
       "endDate": "2024",
-      "summary": "Programador de las versiones V.1 y V.2 de UrU, colaborador de la versión oficial V3.0 (online actualmente). Recomendador de productos tecnologicos usando red neuronales con entrenamiento supersivsado, usando datos recolectados mediante web scraping",
+      "summary": "Desarrollador de las versiones V.1 y V.2 de UrU, colaborador de la versión oficial V3.0 (online actualmente). Recomendador de productos tecnologicos usando red neuronales con entrenamiento supervisado, usando datos recolectados mediante web scraping.",
       "highlights": [
         "Started the company"
       ]
@@ -53,7 +53,7 @@
     {
       "name": "Universidad Distrital FJC",
       "position": "Estudiante",
-      "url": "https://twitch.tv/midudev",
+      "url": "",
       "startDate": "2022",
       "endDate": "2022",
       "summary": "Creación e implementación de un sistema de computer visión que detecta en tiempo real el código de la placa de los vehiculos que vea en pantalla. Usando Python (tensorflow). Entrenamiento supervisado. Etiquetado manual y automatizado con validación humana. Entrenamiento supervisado.",
@@ -65,7 +65,7 @@
   "volunteer": [{
     "organization": "Organization",
     "position": "Volunteer",
-    "url": "https://organization.com/",
+    "url": "",
     "startDate": "2012-01-01",
     "endDate": "2013-01-01",
     "summary": "Description…",
