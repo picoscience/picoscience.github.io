@@ -153,6 +153,20 @@
       ]
     },
     {
+      "name": "React Native",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo móvil", "Frontend", "JavaScript Library", "UI"
+      ]
+    },    
+    {
+      "name": "Expo",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo móvil", "Frontend", "JavaScript Library", "UI"
+      ]
+    },    
+    {
       "name": "Python",
       "level": "Avanzado",
       "keywords": [
@@ -216,7 +230,7 @@
     },
     {
       "language": "English",
-      "fluency": "Advanced"
+      "fluency": "Medium"
     }
   ],
   "interests": [{
@@ -231,6 +245,17 @@
     "reference": "Reference…"
   }],
   "projects": [
+    {
+      "name": "Grill Gourmet", 
+      "description": "Mobile app for ordering food, customizing dishes, scheduling deliveries, and paying in an integrated and secure way. It provides an intuitive user experience, allowing you to select ingredients, manage your cart, and track orders in real time.",
+      "highlights": [
+        "Frontend", 
+        "Expo",
+        "Typescript", 
+        "React Native"
+      ], 
+      "url": "https://play.google.com/store/apps/details?id=co.gruporq.grillgourmet"
+    },
     {
       "name": "VitalGO", 
       "description": "A business application focused on sales tracking and data analysis for a windows and doors manufacturing company.",
@@ -305,18 +330,7 @@
         "Tailwind"
       ], 
       "url": "https://github.com/picoscience/users-filter-nextjs"
-    },
-    {
-      "name": "Migrado Libre", 
-      "description": "Products page using Mercadolibre API. Filtering by subcategories. Senior interview problem",
-      "highlights": [
-        "NextJS",
-        "React",
-        "Typescript",
-        "Tailwind"
-      ], 
-      "url": "https://github.com/picoscience/migrado-libre"
-    },
+    }, 
     {
       "name": "Portfolio CV", 
       "description": "Minimalistic CV using Astro, dynamic cv just changing the cv.json (print format)",
