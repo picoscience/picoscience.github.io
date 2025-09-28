@@ -6,28 +6,19 @@ import Experience from "@/components/sections/Experience.astro";
 import Education from "@/components/sections/Education.astro";
 import Skills from "@/components/sections/Skills.astro";
 import Projects from "@/components/sections/Projects.astro";
+import Contact from "@/components/sections/Contact.astro";
 ---
 
-<Layout title="Minimalistic CV">
-  <main>
-    <Hero />
-    <About />
-    <Experience />
-    <Education />
-    <Skills />
-    <Projects />
+<Layout title="Juan Camilo Acosta Pico - CV">
+  <main class="min-h-screen py-8 lg:py-16">
+    <div class="max-w-6xl mx-auto">
+      <Hero />
+      <About />
+      <Experience />
+      <Education />
+      <Skills />
+      <Projects />
+      <Contact />
+    </div>
   </main>
 </Layout>
-
-<style>
-  main {
-    padding: 4rem;
-    margin: auto;
-    width: 100%;
-  }
-  @media (max-width: 620px) {
-    main {
-      padding: 2rem;
-    }
-  }
-</style>

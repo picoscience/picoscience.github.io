@@ -22,7 +22,7 @@
       }, 
       {
         "network": "GitHub",
-        "username": "midudev",
+        "username": "picoscience",
         "url": "https://github.com/picoscience"
       }
     ]
@@ -104,122 +104,48 @@
   }],
   "skills": [
     {
-      "name": "HTML",
+      "name": "Lenguajes de Programación",
       "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend"
+      "keywords": ["languages"],
+      "technologies": [
+        { "name": "JavaScript", "level": "Master" },
+        { "name": "TypeScript", "level": "Avanzado" },
+        { "name": "Python", "level": "Avanzado" },
+        { "name": "HTML", "level": "Master" },
+        { "name": "CSS", "level": "Master" }
       ]
     },
     {
-      "name": "CSS",
-      "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Diseño Responsive"
+      "name": "Frameworks y Librerías",
+      "level": "Avanzado",
+      "keywords": ["frameworks", "libraries"],
+      "technologies": [
+        { "name": "React", "level": "Avanzado" },
+        { "name": "Next.js", "level": "Avanzado" },
+        { "name": "React Native", "level": "Avanzado" },
+        { "name": "Django", "level": "Avanzado" },
+        { "name": "Expo", "level": "Avanzado" },
+        { "name": "Tailwind", "level": "Avanzado" },
+        { "name": "Astro", "level": "Avanzado" }
       ]
     },
     {
-      "name": "JavaScript",
-      "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+      "name": "Bases de Datos",
+      "level": "Avanzado",
+      "keywords": ["databases"],
+      "technologies": [
+        { "name": "PostgreSQL", "level": "Avanzado" }
       ]
     },
     {
-      "name": "Tailwind",
+      "name": "Herramientas y Tecnologías",
       "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
-      ]
-    },
-    {
-      "name": "TypeScript",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
-      ]
-    },
-    {
-      "name": "Next.js",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
-      ]
-    },
-    {
-      "name": "React",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
-      ]
-    },
-    {
-      "name": "React Native",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo móvil", "Frontend", "JavaScript Library", "UI"
-      ]
-    },    
-    {
-      "name": "Expo",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo móvil", "Frontend", "JavaScript Library", "UI"
-      ]
-    },    
-    {
-      "name": "Python",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Backend", "Servidor"
-      ]
-    },
-    {
-      "name": "Django",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Backend", "Servidor"
-      ]
-    },
-    {
-      "name": "PostgreSQL",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
-      ]
-    },
-    {
-      "name": "Git",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente"
-      ]
-    },
-    {
-      "name": "GitHub",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
-      ]
-    },
-    {
-      "name": "Tensorflow",
-      "level": "Avanzado",
-      "keywords": [
-        "Script", "Machine learning", "Python" 
-      ]
-    },
-    {
-      "name": "Scikit-learn",
-      "level": "Avanzado",
-      "keywords": [
-        "Machine learning", "Python" 
-      ]
-    },
-    {
-      "name": "Astro",
-      "level": "Avanzado",
-      "keywords": [
-        "Frontend", "UI" ,"Programación web" 
+      "keywords": ["tools", "technologies"],
+      "technologies": [
+        { "name": "Git", "level": "Avanzado" },
+        { "name": "GitHub", "level": "Avanzado" },
+        { "name": "Tensorflow", "level": "Avanzado" },
+        { "name": "Scikit-learn", "level": "Avanzado" }
       ]
     }
   ],

@@ -18,22 +18,37 @@ const SOCIAL_ICONS: Record<string, any> = {
 ---
 
 <Section>
-  <div class="container">
-    <div class="info">
-      <h1>{name}</h1>
-      <h2>{label}</h2>
-      <span>
+  <div
+    class="flex flex-col lg:flex-row gap-8 lg:gap-12 items-start lg:items-center"
+  >
+    <div class="flex-1 space-y-4">
+      <div class="space-y-2">
+        <h1
+          class="text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900 leading-tight"
+        >
+          {name}
+        </h1>
+        <h2
+          class="text-lg lg:text-xl text-gray-600 font-medium leading-relaxed"
+        >
+          {label}
+        </h2>
+      </div>
+
+      <div class="flex items-center gap-2 text-gray-500">
         <WorldMap />
-        {city}, {region}
-      </span>
-      <footer>
+        <span class="text-sm lg:text-base">{city}, {region}</span>
+      </div>
+
+      <div class="flex items-center gap-3 pt-2">
         {
           email && (
             <a
               href={`mailto:${email}`}
-              title={`Send an email to ${name} through ${email}.`}
+              title={`Enviar email a ${name}`}
               target="_blank"
               rel="noopener noreferrer"
+              class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gray-100 hover:bg-gray-200 text-gray-600 hover:text-gray-800 transition-all duration-300 border border-gray-200 hover:border-gray-300"
             >
               <Mail />
             </a>
@@ -43,9 +58,10 @@ const SOCIAL_ICONS: Record<string, any> = {
           phone && (
             <a
               href={`tel:${phone}`}
-              title={`Call ${name} via ${phone}.`}
+              title={`Llamar a ${name}`}
               target="_blank"
               rel="noopener noreferrer"
+              class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gray-100 hover:bg-gray-200 text-gray-600 hover:text-gray-800 transition-all duration-300 border border-gray-200 hover:border-gray-300"
             >
               <Phone />
             </a>
@@ -57,84 +73,27 @@ const SOCIAL_ICONS: Record<string, any> = {
             return (
               <a
                 href={url}
-                title={`Visit ${name} in ${network}`}
+                title={`Visitar perfil de ${name} en ${network}`}
                 target="_blank"
                 rel="noopener noreferrer"
+                class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gray-100 hover:bg-gray-200 text-gray-600 hover:text-gray-800 transition-all duration-300 border border-gray-200 hover:border-gray-300"
               >
                 <Icon />
               </a>
             );
           })
         }
-      </footer>
+      </div>
     </div>
-    <figure>
-      <img src={image} alt={name} />
-    </figure>
+
+    <div class="flex-shrink-0">
+      <figure class="w-32 h-32 lg:w-40 lg:h-40 xl:w-44 xl:h-44">
+        <img
+          src={image}
+          alt={`Foto de perfil de ${name}`}
+          class="w-full h-full object-cover rounded-2xl shadow-lg ring-2 ring-gray-200"
+        />
+      </figure>
+    </div>
   </div>
 </Section>
-
-<style>
-  .container {
-    gap: 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
-  }
-  .info {
-    flex: 1 1 0%;
-  }
-  span {
-    display: flex;
-    align-items: center;
-    gap: 0.3rem;
-    font-size: 0.9rem;
-  }
-  figure {
-    width: 120px;
-    height: 120px;
-  }
-  h1 {
-    font-size: 1.8rem;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
-    letter-spacing: -0.03rem;
-  }
-  h2 {
-    text-wrap: balance;
-    font-size: 1rem;
-    color: #999;
-    font-weight: 500;
-    margin-bottom: 4px;
-  }
-  img {
-    border-radius: 20px;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  footer a {
-    color: #777;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 6px;
-    margin: 0;
-    width: 32px;
-    height: 32px;
-    padding: 4px;
-    border: solid 1px #eee;
-    transition: all 0.3s ease-in-out;
-  }
-  a:hover {
-    background-color: #f3f3f3;
-    border-color: #dddd;
-  }
-  footer {
-    margin-top: 8px;
-    display: flex;
-    justify-content: centers;
-    align-items: center;
-    gap: 4px;
-  }
-</style>

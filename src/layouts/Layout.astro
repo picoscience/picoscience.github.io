@@ -10,54 +10,34 @@ const { title } = Astro.props;
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Juan Camilo Acosta Pico" />
-    <meta name="viewport" content="width=device-width" />
+    <meta
+      name="description"
+      content="Juan Camilo Acosta Pico - Ingeniero Electrónico y Full Stack Developer"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
+    <meta name="author" content="Juan Camilo Acosta Pico" />
+    <meta
+      name="keywords"
+      content="Full Stack Developer, React, Next.js, Django, Python, JavaScript, TypeScript, Machine Learning"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
     <title>{title}</title>
   </head>
-  <body>
+  <body class="bg-white text-gray-900 font-sans antialiased">
     <slot />
   </body>
 </html>
-<style is:global>
-  hmtl {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-      "Liberation Mono", "Courier New", monospace;
-    background: #fff;
-    letter-spacing: -0.05rem;
-  }
-  body,
-  figure {
-    margin: 0;
-    padding: 0;
-  }
-  a {
-    text-decoration: none;
-  }
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  *,
-  *::before,
-  *::after {
-    box-sizing: border-box;
-  }
-  h1,
-  h2,
-  h3,
-  h4 {
-    margin: 0;
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-      "Liberation Mono", "Courier New", monospace;
-  }
-  p {
-    line-height: 1.3rem;
-    font-size: 1rem;
-    color: #999;
-    font-weight: 500;
-    margin-bottom: 4px;
-  }
+
+<style>
+  @import "../styles/global.css";
 </style>

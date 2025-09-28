@@ -1,0 +1,79 @@
+---
+import Section from "@/layouts/Section.astro";
+import { basics } from "@cv";
+import LinkedIn from "@/icons/LinkedIn.astro";
+import GitHub from "@/icons/GitHub.astro";
+import Mail from "@/icons/Mail.astro";
+import Phone from "@/icons/Phone.astro";
+
+const { name, email, phone, profiles } = basics;
+
+const SOCIAL_ICONS: Record<string, any> = {
+  LinkedIn,
+  GitHub,
+};
+---
+
+<Section title="Contacto">
+  <div
+    class="bg-gradient-to-r from-primary-50 to-blue-50 rounded-xl p-8 border border-primary-100"
+  >
+    <div class="text-center space-y-6">
+      <div class="space-y-2">
+        <h3 class="text-xl font-semibold text-gray-900">
+          ¿Interesado en colaborar?
+        </h3>
+        <p class="text-gray-600 max-w-2xl mx-auto">
+          Estoy abierto a nuevas oportunidades y proyectos interesantes. No
+          dudes en contactarme.
+        </p>
+      </div>
+
+      <div class="flex flex-wrap items-center justify-center gap-4">
+        {
+          email && (
+            <a
+              href={`mailto:${email}`}
+              title={`Enviar email a ${name}`}
+              class="flex items-center gap-3 px-6 py-3 bg-white hover:bg-gray-50 text-gray-700 hover:text-gray-900 rounded-lg border border-gray-200 hover:border-gray-300 transition-all duration-300 shadow-sm hover:shadow-md font-medium"
+            >
+              <Mail />
+              <span>{email}</span>
+            </a>
+          )
+        }
+
+        {
+          phone && (
+            <a
+              href={`tel:${phone}`}
+              title={`Llamar a ${name}`}
+              class="flex items-center gap-3 px-6 py-3 bg-white hover:bg-gray-50 text-gray-700 hover:text-gray-900 rounded-lg border border-gray-200 hover:border-gray-300 transition-all duration-300 shadow-sm hover:shadow-md font-medium"
+            >
+              <Phone />
+              <span>{phone}</span>
+            </a>
+          )
+        }
+
+        {
+          profiles.map(({ network, url }) => {
+            const Icon = SOCIAL_ICONS[network];
+            return Icon ? (
+              <a
+                href={url}
+                title={`Visitar perfil de ${name} en ${network}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex items-center gap-3 px-6 py-3 bg-white hover:bg-gray-50 text-gray-700 hover:text-gray-900 rounded-lg border border-gray-200 hover:border-gray-300 transition-all duration-300 shadow-sm hover:shadow-md font-medium"
+              >
+                <Icon />
+                <span>{network}</span>
+              </a>
+            ) : null;
+          })
+        }
+      </div>
+    </div>
+  </div>
+</Section>
