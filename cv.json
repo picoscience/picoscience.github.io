@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Juan Camilo Acosta Pico",
-    "label": "Full Stack Developer con más de dos años de experiencia.",
+    "label": "Ingeniero Electrónico y Full Stack Developer con más de dos años de experiencia.",
     "image": "https://i.postimg.cc/6qvkwz85/hero.png",
     "email": "picoscience.09@gmail.com",
     "phone": "+57 3142087757",
     "url": "",
-    "summary": "Más de dos años de experiencia en programación web, con el uso de tecnologías como HTML, CSS, Astro, Javascript, NextJS/React, Typescript (UI/UX), Python (Machine Learning) y Django (API REST). Con conocimientos avanzados en Ingeniería electrónica. Manejo de bases de datos SQL y NoSQL. Infraestructura AWS (despliegue de aplicaciones). Matemáticas avanzadas.",
+    "summary": "Ingeniero Electrónico y Full Stack Developer con más de dos años de experiencia en desarrollo web y móvil. Experto en React, Next.js y Django, con proyectos que integran Machine Learning y visión por computador. Apasionado por crear soluciones escalables y eficientes que combinan software e ingeniería electrónica.",
     "location": {
       "address": "",
       "postalCode": "08820",
@@ -76,7 +76,7 @@
   "education": [{
     "institution": "Universidad Distrital Francisco Jose de Caldas",
     "url": "https://www.udistrital.edu.co/inicio",
-    "area": "Estudiante ingeniería electrónica (100% de la carrera).",
+    "area": "Ingeniero Electrónico",
     "studyType": "Bachelor",
     "startDate": "2016",
     "endDate": "2025",
