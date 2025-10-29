@@ -172,6 +172,17 @@
   }],
   "projects": [
     {
+      "name": "VAYVHEM", 
+      "description": "Mobile ICU app for generating standardized mechanical ventilation orders for critically ill patients. React Native/Expo with dynamic forms, automatic parameter calculation, and DOCX generation for medical documentation. (in testing phase)",
+      "highlights": [
+        "Frontend", 
+        "Expo",
+        "Typescript", 
+        "React Native"
+      ], 
+      "url": "https://play.google.com/apps/testing/com.gerenciarq.vayvhem"
+    },
+    {
       "name": "Grill Gourmet", 
       "description": "Mobile app for ordering food, customizing dishes, scheduling deliveries, and paying in an integrated and secure way. It provides an intuitive user experience, allowing you to select ingredients, manage your cart, and track orders in real time.",
       "highlights": [
