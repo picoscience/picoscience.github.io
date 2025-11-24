@@ -74,7 +74,7 @@
       "url": "https://uru.com.co",
       "startDate": "Marzo 2023",
       "endDate": "Julio 2024",
-      "summary": "Desarrollador principal de las versiones V.1 y V.2, y colaborador de la versión oficial V3.0. Implementación de un recomendador de productos tecnológicos usando Machine Learning con redes neuronales y entrenamiento supervisado, integrando web scraping para recolección de datos.",
+      "summary": "Desarrollador principal de las versiones V.1 y V.2 con Next.js, y colaborador de la versión oficial V3.0. Implementación de un recomendador de productos tecnológicos usando Machine Learning con redes neuronales y entrenamiento supervisado, integrando web scraping para recolección de datos en una arquitectura full stack con Next.js y Django.",
       "highlights": [
         "Desarrollo full stack con Next.js y Django",
         "Implementación de sistema de recomendación con TensorFlow y Scikit-learn",
