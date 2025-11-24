@@ -32,8 +32,8 @@
       "name": "Grupo RQ",
       "position": "Desarrollador Full Stack",
       "url": "https://gruporq.com",
-      "startDate": "2024-07",
-      "endDate": null,
+      "startDate": "Julio 2024",
+      "endDate": "Presente",
       "summary": "Desarrollador full stack especializado en Next.js y React, liderando el desarrollo de aplicaciones web y móviles empresariales. Enfoque en arquitecturas escalables y experiencias de usuario optimizadas.",
       "highlights": [
         "Desarrollo de aplicaciones empresariales con Next.js 14+ (App Router)",
@@ -72,8 +72,8 @@
       "name": "UrU",
       "position": "Desarrollador Full Stack",
       "url": "https://uru.com.co",
-      "startDate": "2023-03",
-      "endDate": "2024-07",
+      "startDate": "Marzo 2023",
+      "endDate": "Julio 2024",
       "summary": "Desarrollador principal de las versiones V.1 y V.2, y colaborador de la versión oficial V3.0. Implementación de un recomendador de productos tecnológicos usando Machine Learning con redes neuronales y entrenamiento supervisado, integrando web scraping para recolección de datos.",
       "highlights": [
         "Desarrollo full stack con Next.js y Django",
