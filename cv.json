@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Juan Camilo Acosta Pico",
-    "label": "Ingeniero Electrónico y Full Stack Developer con más de dos años de experiencia.",
+    "label": "Ingeniero Electrónico y Full Stack Developer con tres años de experiencia.",
     "image": "https://i.postimg.cc/6qvkwz85/hero.png",
     "email": "picoscience.09@gmail.com",
     "phone": "+57 3142087757",
     "url": "",
-    "summary": "Ingeniero Electrónico y Full Stack Developer con más de dos años de experiencia en desarrollo web y móvil. Experto en React, Next.js y Django, con proyectos que integran Machine Learning y visión por computador. Apasionado por crear soluciones escalables y eficientes que combinan software e ingeniería electrónica.",
+    "summary": "Ingeniero Electrónico y Full Stack Developer con tres años de experiencia en desarrollo web y móvil. Especialista en Next.js, React y Django, con proyectos que integran Machine Learning y visión por computador. Apasionado por crear soluciones escalables y eficientes que combinan software e ingeniería electrónica.",
     "location": {
       "address": "",
       "postalCode": "08820",
@@ -30,37 +30,72 @@
   "work": [
     {
       "name": "Grupo RQ",
-      "position": "Desarrollador frontend.",
-      "url": "",
-      "startDate": "2024",
+      "position": "Desarrollador Full Stack",
+      "url": "https://gruporq.com",
+      "startDate": "2024-07",
       "endDate": null,
-      "summary": "Desarrollador full stack y frontend en diversos proyectos.",
+      "summary": "Desarrollador full stack especializado en Next.js y React, liderando el desarrollo de aplicaciones web y móviles empresariales. Enfoque en arquitecturas escalables y experiencias de usuario optimizadas.",
       "highlights": [
-        "Started the company"
+        "Desarrollo de aplicaciones empresariales con Next.js 14+ (App Router)",
+        "Implementación de aplicaciones móviles con React Native y Expo",
+        "Integración de sistemas de autenticación JWT y gestión de estados complejos",
+        "Optimización de rendimiento y SEO con Server-Side Rendering (SSR)",
+        "Desarrollo de APIs RESTful con Django y Django REST Framework",
+        "Implementación de TypeScript para mayor robustez del código",
+        "Diseño de interfaces responsivas con Tailwind CSS",
+        "Gestión de bases de datos PostgreSQL",
+        "Proyectos destacados: VAYVHEM (app médica), Grill Gourmet (e-commerce), VitalGO, IDW Systems"
+      ],
+      "technologies": [
+        "Next.js",
+        "React",
+        "React Native",
+        "TypeScript",
+        "JavaScript",
+        "Django",
+        "Django REST Framework",
+        "PostgreSQL",
+        "Tailwind CSS",
+        "Expo",
+        "Git",
+        "GitHub"
       ]
     },
     {
       "name": "UrU",
-      "position": "Desarrollador web Full Stack.",
-      "url": "",
-      "startDate": "2023",
-      "endDate": "2024",
-      "summary": "Desarrollador de las versiones V.1 y V.2 de UrU, colaborador de la versión oficial V3.0 (online actualmente). Recomendador de productos tecnologicos usando red neuronales con entrenamiento supervisado, usando datos recolectados mediante web scraping.",
+      "position": "Desarrollador Full Stack",
+      "url": "https://uru.com.co",
+      "startDate": "2023-03",
+      "endDate": "2024-07",
+      "summary": "Desarrollador principal de las versiones V.1 y V.2, y colaborador de la versión oficial V3.0. Implementación de un recomendador de productos tecnológicos usando Machine Learning con redes neuronales y entrenamiento supervisado, integrando web scraping para recolección de datos.",
       "highlights": [
-        "Started the company"
+        "Desarrollo full stack con Next.js y Django",
+        "Implementación de sistema de recomendación con TensorFlow y Scikit-learn",
+        "Desarrollo de web scraping automatizado para recolección de datos de productos",
+        "Diseño e implementación de API RESTful con Django",
+        "Arquitectura de frontend con Next.js y optimización SEO",
+        "Integración de modelos de Machine Learning en producción",
+        "Gestión de base de datos PostgreSQL con más de 50k productos",
+        "Implementación de sistema de autenticación y perfiles de usuario",
+        "Deploy y mantenimiento en producción"
+      ],
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Django",
+        "Django REST Framework",
+        "TensorFlow",
+        "Scikit-learn",
+        "Python",
+        "PostgreSQL",
+        "Tailwind CSS",
+        "Git",
+        "Beautiful Soup",
+        "Pandas",
+        "NumPy"
       ]
-    },
-    {
-      "name": "Universidad Distrital FJC",
-      "position": "Estudiante",
-      "url": "",
-      "startDate": "2022",
-      "endDate": "2022",
-      "summary": "Creación e implementación de un sistema de computer visión que detecta en tiempo real el código de la placa de los vehiculos que vea en pantalla. Usando Python (tensorflow). Entrenamiento supervisado. Etiquetado manual y automatizado con validación humana. Entrenamiento supervisado.",
-      "highlights": [
-        "Started the company"
-      ]
-    } 
+    }
   ],
   "volunteer": [{
     "organization": "Organization",
@@ -104,37 +139,48 @@
   }],
   "skills": [
     {
-      "name": "Lenguajes de Programación",
+      "name": "Frontend Development",
       "level": "Master",
-      "keywords": ["languages"],
+      "keywords": ["frontend", "web"],
       "technologies": [
-        { "name": "JavaScript", "level": "Master" },
+        { "name": "Next.js", "level": "Master" },
+        { "name": "React", "level": "Master" },
         { "name": "TypeScript", "level": "Avanzado" },
-        { "name": "Python", "level": "Avanzado" },
+        { "name": "JavaScript", "level": "Master" },
         { "name": "HTML", "level": "Master" },
-        { "name": "CSS", "level": "Master" }
+        { "name": "CSS", "level": "Master" },
+        { "name": "Tailwind", "level": "Avanzado" }
       ]
     },
     {
-      "name": "Frameworks y Librerías",
+      "name": "Mobile Development",
       "level": "Avanzado",
-      "keywords": ["frameworks", "libraries"],
+      "keywords": ["mobile", "apps"],
       "technologies": [
-        { "name": "React", "level": "Avanzado" },
-        { "name": "Next.js", "level": "Avanzado" },
         { "name": "React Native", "level": "Avanzado" },
-        { "name": "Django", "level": "Avanzado" },
-        { "name": "Expo", "level": "Avanzado" },
-        { "name": "Tailwind", "level": "Avanzado" },
-        { "name": "Astro", "level": "Avanzado" }
+        { "name": "Expo", "level": "Avanzado" }
       ]
     },
     {
-      "name": "Bases de Datos",
+      "name": "Backend Development",
       "level": "Avanzado",
-      "keywords": ["databases"],
+      "keywords": ["backend", "api"],
       "technologies": [
+        { "name": "Django", "level": "Avanzado" },
+        { "name": "Django REST Framework", "level": "Avanzado" },
+        { "name": "Python", "level": "Avanzado" },
         { "name": "PostgreSQL", "level": "Avanzado" }
+      ]
+    },
+    {
+      "name": "Machine Learning & Data",
+      "level": "Avanzado",
+      "keywords": ["ml", "ai", "data"],
+      "technologies": [
+        { "name": "Tensorflow", "level": "Avanzado" },
+        { "name": "Scikit-learn", "level": "Avanzado" },
+        { "name": "Pandas", "level": "Avanzado" },
+        { "name": "NumPy", "level": "Avanzado" }
       ]
     },
     {
@@ -144,8 +190,7 @@
       "technologies": [
         { "name": "Git", "level": "Avanzado" },
         { "name": "GitHub", "level": "Avanzado" },
-        { "name": "Tensorflow", "level": "Avanzado" },
-        { "name": "Scikit-learn", "level": "Avanzado" }
+        { "name": "Astro", "level": "Avanzado" }
       ]
     }
   ],
