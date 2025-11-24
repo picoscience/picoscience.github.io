@@ -40,10 +40,11 @@
         "Implementación de aplicaciones móviles con React Native y Expo",
         "Integración de sistemas de autenticación JWT y gestión de estados complejos",
         "Optimización de rendimiento y SEO con Server-Side Rendering (SSR)",
-        "Desarrollo de APIs RESTful con Django y Django REST Framework",
+        "Desarrollo de APIs RESTful con Django, FastAPI y Django REST Framework",
         "Implementación de TypeScript para mayor robustez del código",
         "Diseño de interfaces responsivas con Tailwind CSS",
-        "Gestión de bases de datos PostgreSQL",
+        "Gestión de bases de datos PostgreSQL y consultas SQL avanzadas",
+        "Despliegue con Docker y pipelines CI/CD en AWS (EC2, RDS)",
         "Proyectos destacados: VAYVHEM (app médica), Grill Gourmet (e-commerce), VitalGO, IDW Systems"
       ],
       "technologies": [
@@ -54,9 +55,15 @@
         "JavaScript",
         "Django",
         "Django REST Framework",
+        "FastAPI",
         "PostgreSQL",
+        "SQL",
         "Tailwind CSS",
         "Expo",
+        "Docker",
+        "CI/CD",
+        "AWS EC2",
+        "AWS RDS",
         "Git",
         "GitHub"
       ]
@@ -72,12 +79,12 @@
         "Desarrollo full stack con Next.js y Django",
         "Implementación de sistema de recomendación con TensorFlow y Scikit-learn",
         "Desarrollo de web scraping automatizado para recolección de datos de productos",
-        "Diseño e implementación de API RESTful con Django",
+        "Diseño e implementación de API RESTful con Django y FastAPI",
         "Arquitectura de frontend con Next.js y optimización SEO",
         "Integración de modelos de Machine Learning en producción",
-        "Gestión de base de datos PostgreSQL con más de 50k productos",
+        "Gestión de base de datos PostgreSQL con más de 50k productos y consultas SQL complejas",
         "Implementación de sistema de autenticación y perfiles de usuario",
-        "Deploy y mantenimiento en producción"
+        "Deploy y mantenimiento en producción con Docker en AWS EC2 y RDS"
       ],
       "technologies": [
         "Next.js",
@@ -85,11 +92,16 @@
         "TypeScript",
         "Django",
         "Django REST Framework",
+        "FastAPI",
         "TensorFlow",
         "Scikit-learn",
         "Python",
         "PostgreSQL",
+        "SQL",
         "Tailwind CSS",
+        "Docker",
+        "AWS EC2",
+        "AWS RDS",
         "Git",
         "Beautiful Soup",
         "Pandas",
@@ -168,8 +180,21 @@
       "technologies": [
         { "name": "Django", "level": "Avanzado" },
         { "name": "Django REST Framework", "level": "Avanzado" },
+        { "name": "FastAPI", "level": "Avanzado" },
         { "name": "Python", "level": "Avanzado" },
-        { "name": "PostgreSQL", "level": "Avanzado" }
+        { "name": "PostgreSQL", "level": "Avanzado" },
+        { "name": "SQL", "level": "Avanzado" }
+      ]
+    },
+    {
+      "name": "DevOps & Cloud",
+      "level": "Intermedio",
+      "keywords": ["devops", "cloud", "deployment"],
+      "technologies": [
+        { "name": "Docker", "level": "Avanzado" },
+        { "name": "CI/CD", "level": "Intermedio" },
+        { "name": "AWS EC2", "level": "Intermedio" },
+        { "name": "AWS RDS", "level": "Intermedio" }
       ]
     },
     {
