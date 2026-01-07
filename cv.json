@@ -6,7 +6,7 @@
     "email": "picoscience.09@gmail.com",
     "phone": "+57 3142087757",
     "url": "",
-    "summary": "Ingeniero Electrónico y Full Stack Developer con tres años de experiencia en desarrollo web y móvil. Especialista en Next.js, React y Django, con proyectos que integran Machine Learning y visión por computador. Apasionado por crear soluciones escalables y eficientes que combinan software e ingeniería electrónica.",
+    "summary": "Ingeniero Electrónico y Full Stack Developer con tres años de experiencia en desarrollo web y móvil. Especialista en Next.js, React y Django. Apasionado por crear soluciones escalables y eficientes que combinan software e ingeniería electrónica.",
     "location": {
       "address": "",
       "postalCode": "08820",
@@ -33,7 +33,7 @@
       "position": "Desarrollador Full Stack",
       "url": "https://gruporq.com",
       "startDate": "Julio 2024",
-      "endDate": "Presente",
+      "endDate": "Diciembre 2025",
       "summary": "Desarrollador full stack especializado en Next.js y React, liderando el desarrollo de aplicaciones web y móviles empresariales. Enfoque en arquitecturas escalables y experiencias de usuario optimizadas.",
       "highlights": [
         "Desarrollo de aplicaciones empresariales con Next.js 14+ (App Router)",
@@ -55,6 +55,7 @@
         "JavaScript",
         "Django",
         "Django REST Framework",
+        "NestJS",
         "FastAPI",
         "PostgreSQL",
         "SQL",
@@ -180,6 +181,7 @@
       "technologies": [
         { "name": "Django", "level": "Avanzado" },
         { "name": "Django REST Framework", "level": "Avanzado" },
+        { "name": "NestJS", "level": "Avanzado" },
         { "name": "FastAPI", "level": "Avanzado" },
         { "name": "Python", "level": "Avanzado" },
         { "name": "PostgreSQL", "level": "Avanzado" },
