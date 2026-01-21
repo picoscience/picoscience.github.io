@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Juan Camilo Acosta Pico",
-    "label": "Ingeniero Electrónico y Full Stack Developer con tres años de experiencia.",
+    "label": "Ingeniero Electrónico – Desarrollo de Software y Sistemas Tecnológicos",
     "image": "https://i.postimg.cc/6qvkwz85/hero.png",
     "email": "picoscience.09@gmail.com",
     "phone": "+57 3142087757",
     "url": "",
-    "summary": "Ingeniero Electrónico y Full Stack Developer con tres años de experiencia en desarrollo web y móvil. Especialista en Next.js, React y Django. Apasionado por crear soluciones escalables y eficientes que combinan software e ingeniería electrónica.",
+    "summary": "Ingeniero Electrónico con experiencia en desarrollo de software web y móvil, integración de sistemas y diseño de soluciones tecnológicas. Combino conocimientos en electrónica, programación y arquitectura de software para construir productos digitales conectados a sistemas físicos y de datos.\n\nHe desarrollado aplicaciones web y móviles en React, React Native, Next.js y Django, integrando APIs, bases de datos y servicios en la nube. Cuento con bases en sistemas embebidos, adquisición de señales e integración con microcontroladores, orientado a proyectos de IoT y automatización.\n\nBusco participar en equipos donde pueda aportar en el diseño e implementación de soluciones completas: desde la capa física y de datos hasta la interfaz de usuario final.",
     "location": {
       "address": "",
       "postalCode": "08820",
@@ -30,7 +30,7 @@
   "work": [
     {
       "name": "Grupo RQ",
-      "position": "Desarrollador Full Stack",
+      "position": "Ingeniero de Desarrollo de Software",
       "url": "https://gruporq.com",
       "startDate": "Julio 2024",
       "endDate": "Diciembre 2025",
@@ -71,7 +71,7 @@
     },
     {
       "name": "UrU",
-      "position": "Desarrollador Full Stack",
+      "position": "Ingeniero de Desarrollo de Software",
       "url": "https://uru.com.co",
       "startDate": "Marzo 2023",
       "endDate": "Julio 2024",
@@ -122,10 +122,11 @@
     ]
   }],
   "education": [{
-    "institution": "Universidad Distrital Francisco Jose de Caldas",
+    "institution": "Universidad XXXXX – Bogotá",
     "url": "https://www.udistrital.edu.co/inicio",
-    "area": "Ingeniero Electrónico",
-    "studyType": "Bachelor",
+    "area": "Ingeniería Electrónica",
+    "studyType": "Graduado 2025",
+    "matricula": "Matrícula Profesional No. XXXXXXX",
     "startDate": "2016",
     "endDate": "2025",
     "score": "4.0",
@@ -152,72 +153,32 @@
   }],
   "skills": [
     {
-      "name": "Frontend Development",
-      "level": "Master",
-      "keywords": ["frontend", "web"],
+      "name": "Electrónica y Sistemas",
       "technologies": [
-        { "name": "Next.js", "level": "Master" },
-        { "name": "React", "level": "Master" },
-        { "name": "TypeScript", "level": "Avanzado" },
-        { "name": "JavaScript", "level": "Master" },
-        { "name": "HTML", "level": "Master" },
-        { "name": "CSS", "level": "Master" },
-        { "name": "Tailwind", "level": "Avanzado" }
+        { "name": "Sistemas embebidos (ESP32, Arduino)" },
+        { "name": "Sensores y adquisición de señales" },
+        { "name": "IoT y comunicación de dispositivos" }
       ]
     },
     {
-      "name": "Mobile Development",
-      "level": "Avanzado",
-      "keywords": ["mobile", "apps"],
+      "name": "Software",
       "technologies": [
-        { "name": "React Native", "level": "Avanzado" },
-        { "name": "Expo", "level": "Avanzado" }
+        { "name": "React" },
+        { "name": "Next.js" },
+        { "name": "React Native" },
+        { "name": "Django" },
+        { "name": "Node.js" },
+        { "name": "APIs REST" },
+        { "name": "PostgreSQL" }
       ]
     },
     {
-      "name": "Backend Development",
-      "level": "Avanzado",
-      "keywords": ["backend", "api"],
+      "name": "Herramientas",
       "technologies": [
-        { "name": "Django", "level": "Avanzado" },
-        { "name": "Django REST Framework", "level": "Avanzado" },
-        { "name": "NestJS", "level": "Avanzado" },
-        { "name": "FastAPI", "level": "Avanzado" },
-        { "name": "Python", "level": "Avanzado" },
-        { "name": "PostgreSQL", "level": "Avanzado" },
-        { "name": "SQL", "level": "Avanzado" }
-      ]
-    },
-    {
-      "name": "DevOps & Cloud",
-      "level": "Intermedio",
-      "keywords": ["devops", "cloud", "deployment"],
-      "technologies": [
-        { "name": "Docker", "level": "Avanzado" },
-        { "name": "CI/CD", "level": "Intermedio" },
-        { "name": "AWS EC2", "level": "Intermedio" },
-        { "name": "AWS RDS", "level": "Intermedio" }
-      ]
-    },
-    {
-      "name": "Machine Learning & Data",
-      "level": "Avanzado",
-      "keywords": ["ml", "ai", "data"],
-      "technologies": [
-        { "name": "Tensorflow", "level": "Avanzado" },
-        { "name": "Scikit-learn", "level": "Avanzado" },
-        { "name": "Pandas", "level": "Avanzado" },
-        { "name": "NumPy", "level": "Avanzado" }
-      ]
-    },
-    {
-      "name": "Herramientas y Tecnologías",
-      "level": "Avanzado",
-      "keywords": ["tools", "technologies"],
-      "technologies": [
-        { "name": "Git", "level": "Avanzado" },
-        { "name": "GitHub", "level": "Avanzado" },
-        { "name": "Astro", "level": "Avanzado" }
+        { "name": "Git" },
+        { "name": "Docker" },
+        { "name": "Linux" },
+        { "name": "Cloud deployment" }
       ]
     }
   ],
@@ -244,7 +205,7 @@
   }],
   "projects": [
     {
-      "name": "VAYVHEM", 
+      "name": "Proyectos de Ingeniería y Desarrollo Tecnológico",
       "description": "Mobile ICU app for generating standardized mechanical ventilation orders for critically ill patients. React Native/Expo with dynamic forms, automatic parameter calculation, and DOCX generation for medical documentation. (in testing phase)",
       "highlights": [
         "Frontend", 
