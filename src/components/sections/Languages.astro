@@ -1,0 +1,19 @@
+---
+import Section from "@/layouts/Section.astro";
+import { languages } from "@cv";
+---
+
+{
+  languages?.length > 0 && (
+    <Section title="Idiomas">
+      <ul class="space-y-2">
+        {languages.map(({ language, fluency }) => (
+          <li class="flex justify-between text-gray-700">
+            <span class="font-medium">{language}</span>
+            <span class="text-gray-500">{fluency}</span>
+          </li>
+        ))}
+      </ul>
+    </Section>
+  )
+}
