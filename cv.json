@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Juan Camilo Acosta Pico",
-    "label": "Ingeniero Electrónico | Full Stack Developer | Sistemas Inteligentes",
+    "label": "Ingeniero Electrónico | Desarrollo de Software y Sistemas Tecnológicos",
     "image": "https://i.postimg.cc/6qvkwz85/hero.png",
     "email": "picoscience.09@gmail.com",
     "phone": "+57 3142087757",
     "url": "",
-    "summary": "Ingeniero Electrónico con experiencia en desarrollo de software, integración de sistemas y diseño de soluciones tecnológicas end-to-end. Combino fundamentos de electrónica, programación y arquitectura de software para construir aplicaciones web y móviles conectadas a sistemas de datos y servicios en la nube. Experiencia en Next.js, React, React Native y Django, orientado a soluciones escalables, automatización y productos digitales inteligentes.",
+    "summary": "Ingeniero Electrónico con experiencia en desarrollo de software y construcción de soluciones tecnológicas integrando programación, análisis de datos y arquitectura de sistemas. He participado en el desarrollo de aplicaciones web y móviles en producción utilizando tecnologías como Next.js, React Native y Django, así como en la implementación de plataformas basadas en Machine Learning y procesamiento de datos.",
     "location": {
       "address": "",
       "postalCode": "08820",
@@ -34,17 +34,15 @@
       "url": "https://gruporq.com",
       "startDate": "Julio 2024",
       "endDate": "Diciembre 2025",
-      "summary": "Ingeniero de desarrollo de software, liderando la construcción de aplicaciones web y móviles empresariales. Diseño de arquitecturas escalables, integración de APIs y servicios en la nube, y optimización de rendimiento y experiencia de usuario.",
+      "summary": "Participación en el desarrollo de aplicaciones empresariales web y móviles, integrando APIs, bases de datos y servicios en la nube para productos utilizados en sectores como salud y comercio electrónico.",
       "highlights": [
-        "Desarrollo de aplicaciones web empresariales con Next.js (App Router)",
-        "Implementación de aplicaciones móviles con React Native y Expo",
-        "Diseño de arquitecturas frontend escalables y mantenibles",
-        "Integración de autenticación JWT y gestión de estado",
+        "Desarrollo de aplicaciones web empresariales utilizando Next.js y TypeScript",
+        "Construcción de aplicaciones móviles multiplataforma con React Native y Expo",
         "Desarrollo de APIs REST con Django y FastAPI",
-        "Optimización de rendimiento, SEO y experiencia de usuario",
-        "Gestión de bases de datos PostgreSQL y consultas SQL",
-        "Despliegue en contenedores Docker y pipelines CI/CD en AWS",
-        "Participación en productos tecnológicos en sector salud y e-commerce"
+        "Implementación de autenticación basada en JWT y gestión de usuarios",
+        "Integración con bases de datos PostgreSQL y optimización de consultas SQL",
+        "Despliegue de aplicaciones utilizando Docker y pipelines CI/CD en AWS",
+        "Participación en el desarrollo de productos tecnológicos en sectores de salud y e-commerce"
       ],
       "technologies": [
         "Next.js",
@@ -74,15 +72,15 @@
       "url": "https://uru.com.co",
       "startDate": "Marzo 2023",
       "endDate": "Julio 2024",
-      "summary": "Ingeniero principal en el desarrollo de las versiones V1 y V2 de una plataforma tecnológica de recomendación de productos. Implementación de sistemas de Machine Learning con redes neuronales supervisadas, recolección automatizada de datos mediante web scraping y despliegue de modelos en una arquitectura full stack con Next.js y Django.",
+      "summary": "Participación en el desarrollo de una plataforma tecnológica de recomendación de productos basada en Machine Learning, integrando recolección de datos, entrenamiento de modelos y desarrollo de interfaces web.",
       "highlights": [
-        "Desarrollo full stack con Next.js y Django",
-        "Implementación de sistemas de recomendación con Machine Learning",
+        "Desarrollo full stack de plataforma tecnológica utilizando Next.js y Django",
+        "Implementación de sistemas de recomendación basados en Machine Learning",
         "Entrenamiento y despliegue de modelos con TensorFlow y Scikit-learn",
-        "Automatización de recolección de datos mediante web scraping",
+        "Automatización de recolección de datos mediante web scraping en Python",
         "Diseño de APIs REST para integración de servicios",
-        "Optimización de base de datos PostgreSQL con consultas complejas",
-        "Despliegue en producción con Docker y AWS"
+        "Optimización de consultas complejas en PostgreSQL",
+        "Despliegue de la plataforma en producción utilizando Docker y AWS"
       ],
       "technologies": [
         "Next.js",
@@ -200,71 +198,41 @@
     }
   ],
   "languages": [
-    {
-      "language": "Spanish",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "English",
-      "fluency": "Professional Working Proficiency"
-    }
+  {
+    "language": "Español",
+    "fluency": "Nativo"
+  },
+  {
+    "language": "Inglés",
+    "fluency": "B2 – Profesional"
+  }
   ],
   "interests": [],
   "references": [],
   "projects": [
     {
       "name": "VAYVHEM",
-      "description": "Mobile ICU application for generating standardized mechanical ventilation orders. Built with React Native and Expo, featuring dynamic clinical forms, automatic parameter calculations and medical document generation.",
-      "highlights": ["Frontend", "Expo", "Typescript", "React Native"],
+      "description": "Mobile ICU application for generating standardized mechanical ventilation orders used by healthcare professionals.",
+      "highlights": ["React Native", "Expo", "Typescript"],
       "url": "https://play.google.com/apps/testing/com.gerenciarq.vayvhem"
     },
     {
       "name": "Grill Gourmet",
-      "description": "Mobile app for ordering food, customizing dishes, scheduling deliveries, and secure payments with real-time order tracking.",
-      "highlights": ["Frontend", "Expo", "Typescript", "React Native"],
+      "description": "Mobile food ordering platform with real-time order tracking and customizable menus.",
+      "highlights": ["React Native", "Expo", "Typescript"],
       "url": "https://play.google.com/store/apps/details?id=co.gruporq.grillgourmet"
     },
     {
-      "name": "VitalGO",
-      "description": "Business application focused on sales tracking and data analysis for a manufacturing company.",
-      "highlights": ["Frontend", "NextJS", "Typescript", "Tailwind", "React"],
-      "url": "https://myvitalgo.com"
-    },
-    {
-      "name": "IDW Systems",
-      "description": "Business application focused on sales tracking and data analysis for a manufacturing company.",
-      "highlights": ["Frontend", "NextJS", "Typescript", "Tailwind", "React"],
-      "url": "https://idwsystems.com"
-    },
-    {
       "name": "TaxSaver App",
-      "description": "Web application designed to optimize income tax calculations and simulate the Colombian DIAN tax filing process.",
-      "highlights": ["FullStack", "Django", "NextJS", "Typescript", "Tailwind", "React"],
+      "description": "Web platform designed to simulate and optimize Colombian income tax calculations based on DIAN rules.",
+      "highlights": ["FullStack", "Django", "NextJS", "Typescript"],
       "url": "https://app.taxsaver.com.co"
     },
     {
       "name": "UrU",
-      "description": "Technological product recommender based on supervised neural networks for personalized product suggestions.",
-      "highlights": ["FullStack", "Django", "Tensorflow", "NextJS", "Typescript", "Tailwind", "React"],
+      "description": "Technological product recommender using supervised neural networks for personalized technology suggestions.",
+      "highlights": ["FullStack", "Django", "Tensorflow", "NextJS", "Typescript"],
       "url": "https://uru.com.co"
-    },
-    {
-      "name": "JWT Auth",
-      "description": "Authentication API using Django and JWT with Next.js frontend state management.",
-      "highlights": ["Django", "NextJS", "Typescript", "Tailwind", "React", "JWT"],
-      "url": "https://github.com/picoscience/next-jwt-auth"
-    },
-    {
-      "name": "Dynamic User Filtering",
-      "description": "Frontend project demonstrating dynamic data filtering and state management in React.",
-      "highlights": ["NextJS", "React", "Typescript", "Tailwind"],
-      "url": "https://github.com/picoscience/users-filter-nextjs"
-    },
-    {
-      "name": "Portfolio CV",
-      "description": "Minimalistic CV built with Astro, using dynamic JSON-based content rendering.",
-      "highlights": ["UI Static", "Astro", "Typescript", "CSS"],
-      "url": "https://github.com/picoscience/minimalistic-cv"
     }
   ]
 }
