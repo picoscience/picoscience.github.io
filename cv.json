@@ -207,8 +207,7 @@
     "fluency": "B2 – Profesional"
   }
   ],
-  "interests": [],
-  "references": [],
+  "interests": [], 
   "projects": [
     {
       "name": "VAYVHEM",
@@ -234,5 +233,21 @@
       "highlights": ["FullStack", "Django", "Tensorflow", "NextJS", "Typescript"],
       "url": "https://uru.com.co"
     }
-  ]
+  ],
+  "references": [
+  {
+    "name": "Yuvicelly Castaño",
+    "position": "Profesional 1 TI",
+    "company": "Metro de Medellín LTDA",
+    "email": "ycastano@metromedellin.gov.co",
+    "phone": "3182848038"
+  },
+  {
+    "name": "Jhonatan Rico",
+    "position": "Gerente de Desarrollo de Software",
+    "company": "Grupo RQ",
+    "email": "jsricop@gmail.com",
+    "phone": "3104196100"
+  }
+]
 }

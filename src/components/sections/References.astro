@@ -1,0 +1,23 @@
+---
+import Section from "@/layouts/Section.astro";
+import { references } from "@cv";
+---
+
+{
+  references?.length > 0 && (
+    <Section title="Referencias">
+      <div class="space-y-4">
+        {references.map(({ name, position, company, email, phone }) => (
+          <div class="text-gray-700">
+            <p class="font-semibold text-gray-900">{name}</p>
+            <p class="text-sm text-gray-600">
+              {position} — {company}
+            </p>
+            <p class="text-sm">{email}</p>
+            <p class="text-sm">{phone}</p>
+          </div>
+        ))}
+      </div>
+    </Section>
+  )
+}
